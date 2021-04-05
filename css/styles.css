@@ -25,6 +25,15 @@ header {
     height: 48px;
 }
 
+.material-icons-round {
+    height:48px;
+    width:48px;
+    background-color: blue;
+    word-spacing: -41px;
+    font-size: 45px;
+    /*font-kerning: 1px;*/
+}
+
 main {
     background-color:teal;
 }
@@ -43,18 +52,13 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    margin-right: 100px;
 }
 
 ul li {
     padding: 5px;
 
     align-self: center;
-}
-
-/* TODO DEZE WEGHALEN */
-ul li:last-child {
-    align-content:center;
-    background-color: teal;
 }
 
 a {
