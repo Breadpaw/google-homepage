@@ -95,7 +95,7 @@ form {
     border: 1px solid lightgrey;
 }
 
-.searchbox:hover, .searchbox:active {
+.searchbox:hover, .searchbox:focus-within {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
 }
 
